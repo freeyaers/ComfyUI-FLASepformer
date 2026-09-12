@@ -1,0 +1,9 @@
+# ComfyUI-FLASepformer Requirements
+# These packages are already available in the ComfyUI embedded Python environment:
+# - onnxruntime (1.23.2)
+# - soundfile (0.12.1)
+# - torch (2.13.0+rocm10.0.0)
+# - torchaudio (2.11.0.2+rocm10.0.0)
+# - numpy (2.5.1)
+#
+# No additional packages need to be installed.
