@@ -2,7 +2,7 @@
 
 > 📖 [中文文档](README_CN.md)
 
-ComfyUI node for FLASepformer speech separation by Alibaba DAMO Academy, splits dual-speaker mixed audio into two independent tracks.
+FLASepformer is a highly efficient monaural speech separation model specifically designed for long speech sequences. It takes a mixed speech signal containing two speakers as input and separates it into two distinct, independent speaker streams.
 
 ---
 
