@@ -2,13 +2,13 @@
 
 > 📖 [中文文档](README_CN.md)
 
-FLASepformer is a highly efficient monaural speech separation model specifically designed for long speech sequences. It takes a mixed speech signal containing two speakers as input and separates it into two distinct, independent speaker streams.
+ComfyUI node for FLASepformer speech separation by Alibaba DAMO Academy, splits dual-speaker mixed audio into two independent tracks.
 
 ---
 
 ## Introduction
 
-**FLASepformer** is an efficient time-domain speech separation model proposed by Alibaba DAMO Academy (Tongyi Lab), using the Gated Focused Linear Attention (Gated FLA) architecture. It reduces attention complexity from quadratic to linear with respect to sequence length, significantly lowering GPU memory usage and inference time while maintaining high separation quality.
+**FLASepformer** is a highly efficient monaural speech separation model specifically designed for long speech sequences. It takes a mixed speech signal containing two speakers as input and separates it into two distinct, independent speaker streams.
 
 This plugin wraps the FLASepformer model into a ComfyUI node, supporting:
 - Input audio of any sample rate and channel count, automatically resampled to 8kHz mono
